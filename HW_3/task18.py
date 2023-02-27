@@ -10,5 +10,5 @@ x = int(input('Введите заданное число '))
 res = 0
 for i in a:
     if abs(x - i) < abs(x - res):
-        res = a[i]
+        res = i
 print(res)
